@@ -1,4 +1,6 @@
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/3129129/22811426/bb69dc06-ef0c-11e6-8092-a0bea9060b35.png"/></p>
+<p align="center"><img src="https://github.com/khodges42/DVD-Library/blob/master/screenshot.JPG?raw=true"/></p>
+
+DVD Collection Organizer, built with React + Redux. Uses Asyncronous via Thunk 
 Built with React Slingshot!
 
 ヽ(〃･ω･)ﾉ
