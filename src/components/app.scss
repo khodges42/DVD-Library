@@ -1,0 +1,62 @@
+//Adobe Mountains of Burma color theme
+
+$forest : #354242;
+$seafoam : #ACEBAE;
+$greengray : #d2dad2;
+$ltgreen : #C9DE55;
+$ooze : #7D9100;
+
+.btn{
+  background-color:$forest;
+  &:hover{
+      background-color:$ooze;
+  }
+}
+
+.movieblock{
+  background-color:$greengray;
+  border-left-color: $forest;
+  border-width:0px;
+border-left-width: 10px;
+border-style: solid;
+padding-right:10px;
+padding-left:0px !important;
+padding-top:10px;
+padding-bottom:10px;
+-webkit-transition:0.5s; /* Safari */
+    transition:0.5s;
+&:hover{
+  background-color:$greengray;
+  border-left-color: $forest;
+  border-width:0px;
+border-left-width: 20px;
+
+}
+}
+
+.movieposter{
+  margin-top:25px;
+  -webkit-box-shadow: -8px 10px 20px -6px rgba(0,0,0,0.83);
+  -moz-box-shadow: -8px 10px 20px -6px rgba(0,0,0,0.83);
+  box-shadow: -8px 10px 20px -6px rgba(0,0,0,0.83);
+}
+.navbar-default {
+  background-color:$greengray;
+  border-left-color: $forest;
+  border-width:0px;
+border-left-width: 10px;
+border-style: solid;
+padding-right:10px;
+padding-left:0px !important;
+padding-top:10px;
+padding-bottom:10px;
+-webkit-transition:0.5s; /* Safari */
+    transition:0.5s;
+}
+
+.moviename{
+  font-weight:bold;
+}
+.moviedescr{
+
+}

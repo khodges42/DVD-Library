@@ -1,7 +1,15 @@
 import Axios from 'axios';
 
 const apiUrl = 'http://58e24bebd362871200fead77.mockapi.io/movies/';
+const infoUrl = 'http://www.omdbapi.com/?t=';
 
+
+export const fetchMovieInfoSuccess = (movieinfo) => {
+  return {
+    type: 'FETCH_MOVIE_INFO_SUCCESS',
+    movies
+  }
+};
 
 export const fetchMoviesSuccess = (movies) => {
   return {
@@ -42,6 +50,8 @@ export const fetchMovies = () => {
       });
   };
 };
+
+
 
 
 
